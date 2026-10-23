@@ -35,7 +35,7 @@ jobs:
       fail-fast: false
       #max-parallel: 3
       matrix:
-        CONFIG: [AIROHA-ONU]
+        CONFIG: [AIROHA-ONU, AIROHA-ONU-AN7583]
         SOURCE: [pbs05/ponwrt]
         BRANCH: [master]
 

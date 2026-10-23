@@ -38,6 +38,9 @@
 - luci-app-appfilter / luci-app-filemanager / luci-app-samba4 / luci-app-wolplus / luci-app-ddns
 
 ### 📦 支持机型（同平台全系一次编译产出）
+
+**AN7581 平台（airoha/an7581）**
+
 | 品牌 | 机型 | 变体 |
 |---|---|---|
 | **Nokia** | XG-040G-MD | ubi / ubi-usb-sfp |
@@ -47,6 +50,14 @@
 | **Gemtek** | XG2010G | — |
 | **Unionman** | UNG00A | — |
 | **中兴 ZNXT** | ZN504XG-D / ZN515XG-D | — |
+
+**AN7583 平台（airoha/an7583）**
+
+| 品牌 | 机型 | 变体 |
+|---|---|---|
+| **Nokia** | XG-040G-MF | 普通版 / ubi |
+
+> 两平台**并行编译**，Release 内 `zk-daepon-...` 固件按设备名区分，请选择与你的光猫型号完全对应的 `.itb` 刷写。
 
 ### 🏷️ 固件命名规则
 ```
