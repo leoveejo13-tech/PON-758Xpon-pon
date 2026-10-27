@@ -91,6 +91,10 @@ UPDATE_PACKAGE "luci-lib-taskd" "kenzok8/small-package" "main" "pkg"
 UPDATE_PACKAGE "luci-lib-xterm" "kenzok8/small-package" "main" "pkg"
 UPDATE_PACKAGE "taskd" "kenzok8/small-package" "main" "pkg"
 
+# 编译固件
+UPDATE_PACKAGE "taskd" "luci-app-timecontrol" "main" "pkg"
+UPDATE_PACKAGE "taskd" "luci-app-accesscontrol" "main" "pkg"
+
 #更新软件包版本
 UPDATE_VERSION() {
 	local PKG_NAME=$1
